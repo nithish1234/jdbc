@@ -16,7 +16,7 @@ public class TestController {
 	public void detialsOfUser(@RequestBody SampleModel sampleModel) {
 		
 		DaoLayer daoLayer = new DaoLayer();
-		daoLayer.getBook(sampleModel);
+		daoLayer.getBook();
 
 	}
 }
